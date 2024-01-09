@@ -171,7 +171,7 @@ footer {
 
 /* Animations 
  @keyframe nome{}*/
-@keyframe slide-in {
+@keyframes slide-in {
   from {
     left: 0;
   }
@@ -180,7 +180,7 @@ footer {
   }
 }
 
-@keyframe slide-back {
+@keyframes slide-back {
   from {
     left: 50%;
   }
