@@ -10,6 +10,5 @@ function toggleMode() {
     img.setAttribute("alt", "Mayk Brito de óculos")
   } else {
     img.setAttribute("src", "./assets/perfil-dairos.png")
-    
   }
 }
