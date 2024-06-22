@@ -3,7 +3,7 @@ function toggleMode() {
   //toggle, uma função já existente de "botão switch"
   html.classList.toggle("light")
 
-  const img = document.querySelector("#profile img")
+  const img = document.querySelector("#profile")
   if (html.classList.contains("light")) {
     //mudando atributo da img de acordo com o fundo
     img.setAttribute("src", "./assets/avatar-light.png")
